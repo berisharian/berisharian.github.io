@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="header">
+    <h3> Personal Website</h3>
+</div>
+<div id="nav">
+    <ul>
+        <li><a href="aboutme.html">About Me</a> </li>
+        <li><a href="hobbies.html">Hobbies</a> </li>
+        <li><a href="travel.html">Travel</a> </li>
+        <li><a href="contact.html">Contact</a> </li>
+    </ul>
+</div>
+
+<div class="main1">
+    <h1>Contact</h1>
+    <p> If you would like to contact me, feel free to submit the form below, and I will call you as soon as possible.</p>
+    <img class="contactbox" src="IMG-0557.PNG">
+    <form id="theform">
+        <div>
+            <div class="row">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname"> <br>
+            </div>
+
+            <div class="row">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname"> <br>
+            </div>
+
+            <div class="row">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email"> <br>
+            </div>
+
+
+            <div class="row">
+                <label for="phonenumber">Phone:</label>
+                <input type="tel" id="phonenumber">
+            </div>
+            <br>
+
+            <div class="row">
+            Gender: <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+            </div> <br> <br>
+            <div class="row">
+                City:
+                <select>
+                    <option value="None">None</option>
+                    <option value="Skopje">Skopje</option>
+                    <option value="Tetovo">Tetovo</option>
+                    <option value="Kumanovo">Kumanovo</option>
+                    <option value="Ohrid">Ohrid</option>
+                </select>
+            </div>
+        </div> <br> <br>
+
+        <div>
+            <div class="row">
+            <fieldset>
+                <legend>Additional information about you:</legend>
+                <textarea rows="7" cols="40"></textarea>
+            </fieldset>
+            <div class="wrap">
+                <button type="submit">Submit</button>
+            </div>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+<div id="footer">
+    &copy; May 2022 mywebsite.com.  All rights reserved.
+</div>
+
+</body>
+</html>
